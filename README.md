@@ -1,10 +1,10 @@
 # 100 Game
 
 ## Description
-“100 Game” Each player picks a number from 1 to 10 and the player that reaches 100 wins.
+"100 Game" Each player picks a number from 1 to 10 and the player that reaches 100 wins.
 
 ## Author
-Bassam Yasser Mohamed
+- **Author:** Bassam Yasser Mohamed
 
 ## Game Rules
 - Each player picks a number from 1 to 10.
@@ -19,10 +19,12 @@ Bassam Yasser Mohamed
 1. Welcome the players and explain the game to them.
 2. Display initial game status.
 3. Start to take player1’s move by considering:
-3.1 The input is a number.
-3.2 The number is valid. (from 1 to 10).
+    1. The input is a number.
+    2. The number is valid (from 1 to 10).
 4. Add the input of the player to the sum.
-5. Check if sum>100 and if so, reject the move and ask for another valid one as you can reach only 100.
-6. Check if player1 wins and if so, declare that and end the game
-7. Repeat 3,4,5,6 with player 2.
-8. Loop 1,2,3,4,5,6,7 until some player wins.
+5. Check if sum > 100 and if so, reject the move and ask for another valid one as you can reach only 100.
+6. Check if player1 wins and if so, declare that and end the game.
+7. Repeat steps 3-6 with player 2.
+8. Loop steps 1-7 until some player wins.
+
+Enjoy playing the 100 game!
